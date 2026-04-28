@@ -14,3 +14,130 @@
   </p>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jero Rocamora | Entrenamientos HYROX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background: linear-gradient(black, #1a1a1a);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    h2 {
+      color: #00ffae;
+      margin-top: 10px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      margin: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 20px;
+      background: #00ffae;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .plan {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+    }
+
+    .price {
+      font-size: 1.8em;
+      color: #00ffae;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Jero Rocamora</h1>
+  <h2>Atleta HYROX</h2>
+  <p>Entrenamientos personalizados para mejorar tu rendimiento</p>
+  <a class="btn" href="https://instagram.com/TUUSUARIO" target="_blank">Contactar</a>
+</header>
+
+<div class="container">
+  <h2>Sobre mí</h2>
+  <p>
+    Soy atleta HYROX y te ayudo a alcanzar tu mejor nivel con planes adaptados a ti,
+    seguimiento constante y resultados reales.
+  </p>
+
+  <!-- FOTO -->
+  <img src="https://via.placeholder.com/400" alt="Entrenando">
+
+</div>
+
+<div class="container">
+  <h2>Planes</h2>
+
+  <div class="plans">
+    <div class="plan">
+      <h3>Básico</h3>
+      <p class="price">30€/mes</p>
+      <p>Rutina personalizada</p>
+    </div>
+
+    <div class="plan">
+      <h3>Pro</h3>
+      <p class="price">50€/mes</p>
+      <p>Rutina + seguimiento</p>
+    </div>
+
+    <div class="plan">
+      <h3>Elite</h3>
+      <p class="price">80€/mes</p>
+      <p>Todo + contacto directo</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
