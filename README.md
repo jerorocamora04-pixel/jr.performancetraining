@@ -2,70 +2,44 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Jero Rocamora | Entrenamientos</title>
-</head>
-<body>
-  <h1>Jero Rocamora</h1>
-  <h2>Atleta HYROX</h2>
-  <p>
-    Te ayudo a mejorar tu rendimiento con entrenamientos personalizados 
-    adaptados a tu nivel y objetivos. Programas eficaces, seguimiento 
-    constante y resultados reales.
-  </p>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Jero Rocamora | Entrenamientos HYROX</title>
+  <title>Jero Rocamora | HYROX Coaching</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: white;
-      text-align: center;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #0a0a0a;
+      color: #f5f5f5;
     }
 
     header {
-      padding: 60px 20px;
-      background: linear-gradient(black, #1a1a1a);
+      height: 100vh;
+      background: url('https://via.placeholder.com/1200x800') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
 
-    h1 {
-      font-size: 3em;
+    header h1 {
+      font-size: 4em;
       margin: 0;
+      letter-spacing: 2px;
     }
 
-    h2 {
-      color: #00ffae;
-      margin-top: 10px;
-    }
-
-    .container {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    img {
-      width: 100%;
-      max-width: 400px;
-      border-radius: 15px;
+    header p {
+      font-size: 1.2em;
       margin: 20px 0;
+      color: #ccc;
     }
 
     .btn {
-      display: inline-block;
-      padding: 15px 30px;
-      margin-top: 20px;
-      background: #00ffae;
+      padding: 15px 35px;
+      background: gold;
       color: black;
       text-decoration: none;
-      border-radius: 10px;
       font-weight: bold;
+      border-radius: 30px;
       transition: 0.3s;
     }
 
@@ -73,23 +47,40 @@
       background: white;
     }
 
-    .plans {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
     }
 
-    .plan {
-      background: #1a1a1a;
-      padding: 20px;
-      border-radius: 15px;
-      width: 250px;
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .gold {
+      color: gold;
+    }
+
+    .card {
+      background: #111;
+      padding: 40px;
+      border-radius: 20px;
+      margin-top: 40px;
+      border: 1px solid #222;
     }
 
     .price {
-      font-size: 1.8em;
-      color: #00ffae;
+      font-size: 2.5em;
+      color: gold;
+      margin: 20px 0;
+    }
+
+    img.profile {
+      width: 250px;
+      border-radius: 20px;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -98,46 +89,47 @@
 
 <header>
   <h1>Jero Rocamora</h1>
-  <h2>Atleta HYROX</h2>
-  <p>Entrenamientos personalizados para mejorar tu rendimiento</p>
-  <a class="btn" href="https://instagram.com/TUUSUARIO" target="_blank">Contactar</a>
+  <p>HYROX Athlete · Performance Coaching</p>
+  <a class="btn" href="https://instagram.com/TUUSUARIO" target="_blank">Solicitar plaza</a>
 </header>
 
-<div class="container">
-  <h2>Sobre mí</h2>
+<section>
+  <h2 class="gold">Quién soy</h2>
   <p>
-    Soy atleta HYROX y te ayudo a alcanzar tu mejor nivel con planes adaptados a ti,
-    seguimiento constante y resultados reales.
+    Atleta HYROX especializado en rendimiento y preparación física avanzada.
+    Mi enfoque combina disciplina, estrategia y entrenamiento inteligente para
+    llevar tu físico y tu mentalidad a un nivel superior.
   </p>
 
-  <!-- FOTO -->
-  <img src="https://via.placeholder.com/400" alt="Entrenando">
+  <img class="profile" src="https://via.placeholder.com/300" alt="Jero entrenando">
+</section>
 
-</div>
+<section>
+  <h2 class="gold">Por qué elegirme</h2>
+  <p>
+    Esto no es un programa genérico. Es un servicio exclusivo.
+    Cada plan está diseñado con precisión, con seguimiento constante y ajustes
+    estratégicos para garantizar progreso real.
+  </p>
+  <p>
+    Trabajo con personas que buscan resultados serios, no excusas.
+  </p>
+</section>
 
-<div class="container">
-  <h2>Planes</h2>
+<section>
+  <h2 class="gold">Elige tu plan</h2>
 
-  <div class="plans">
-    <div class="plan">
-      <h3>Básico</h3>
-      <p class="price">30€/mes</p>
-      <p>Rutina personalizada</p>
-    </div>
-
-    <div class="plan">
-      <h3>Pro</h3>
-      <p class="price">50€/mes</p>
-      <p>Rutina + seguimiento</p>
-    </div>
-
-    <div class="plan">
-      <h3>Elite</h3>
-      <p class="price">80€/mes</p>
-      <p>Todo + contacto directo</p>
-    </div>
+  <div class="card">
+    <h3>Entrenamiento 1:1</h3>
+    <p class="price">100€</p>
+    <p>
+      Programa completamente personalizado según tus objetivos, nivel y disponibilidad.
+      Incluye seguimiento directo, ajustes continuos y soporte para asegurar resultados.
+    </p>
+    <a class="btn" href="https://instagram.com/TUUSUARIO" target="_blank">Empezar</a>
   </div>
-</div>
+
+</section>
 
 </body>
 </html>
